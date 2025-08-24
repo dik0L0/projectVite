@@ -11,12 +11,18 @@ function Home() {
 
       {/* Contenu principal */}
       <main className="main-content">
-        <h2>Bonjour le monde entier</h2>
+        <h2>Bonjour Gozem</h2>
 
         <div className="cards">
           <Link to="/connexion" className="card">
-            Info 1
+            Info 
           </Link>
+          <Link to="/inscription" className="card">
+            Info 4
+          </Link>
+          
+          
+
           <div className="card">Info 2</div>
           <div className="card">Info 3</div>
         </div>
